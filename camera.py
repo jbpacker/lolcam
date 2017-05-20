@@ -3,7 +3,7 @@ import logging
 import cv2
 import time
 
-sleep_rate = 0.2
+sleep_rate = 0.15
 logging.basicConfig(level=logging.DEBUG,
                     format='[%(levelname)s] (%(threadName)-10s) %(message)s',
                    )

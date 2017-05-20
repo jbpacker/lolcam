@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 from camera import Camera
 
-sleep_rate = 0.1
+sleep_rate = 0.2
 logging.basicConfig(level=logging.DEBUG, format='[%(levelname)s] (%(threadName)-10s) %(message)s',)
 
 class RearCamera:
